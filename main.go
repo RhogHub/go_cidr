@@ -23,6 +23,7 @@ func main() {
 	broadcast := make(net.IP, len(network))
 	for i := range network {
 		broadcast[i] = network[i] | ^ipnet.Mask[i]
+
 	}
 
 	ones, bits := ipnet.Mask.Size()
