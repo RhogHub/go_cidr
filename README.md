@@ -9,7 +9,7 @@ Esta é uma simples calculadora CIDR escrita em Go para fornecer informações s
 
 2. **Clone o Repositório:**
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/rhoghub/go_cidr.git
 cd seu-repositorio
 ```
 
